@@ -1,0 +1,150 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: 자네가 혹시 군밤을 좋아한다면
+    text: 우리는 지금부터 친구일세
+    button: 뭐라고요?
+    buttonlink: "#services"
+
+  services:
+    title: "군밤의 미학"
+    text: "사랑은 군밤처럼, 군밤이야말로 사랑이 아닐까?"
+    section: services
+    list:
+      - title: "뜨겁게 타오르다"
+        desc: "칼바람에 손가락이 떨어져나갈 것 같던 추운 겨울, 우리는 그렇게 만났다. 이왕이면 연탄이나 장작으로 구웠으면 좋으련만, 전기로 대충 구워진 너도 정말이나 뜨거웠다. 혹시 이게 사랑일까?"
+        icon: fas fa-fire #find more at https://fontawesome.com/icons
+      - title: "껍질을 내려놓다"
+        desc: "따뜻한 열풍에 너는 조용히 수줍었다. 딱딱한 껍질 속 소중하게 감추어 온 너의 속을 조금은 내어 보이기로 결심한 밤이다. 그래, 나는 비로소 너의 향에 취할 수 있었다."
+        icon: far fa-folder-open
+      - title: "담백하게 다가가다"
+        desc: "너는 서두르는 법이 없었다. 항상 그 자리에, 있는 듯 없는 듯. 자극적이지 않으나 돌아서면 생각나는 달콤함. 그래, 이것이 사랑이다. 겨울이었다."
+        icon: far fa-heart
+
+  portfolio:
+    title: "군밤의 탄생"
+    text: "군밤이란 사랑으로써 완성된다"
+    section: portfolio
+    closebutton: "레시피 닫기"
+
+  about:
+    title: "군밤에 대하여"
+    text: "지난 추억일 뿐이지요"
+    body: "저는 사실 군밤을 별로 좋아하지 않습니다. 군밤보다는 군고구마가 더 좋습니다. 그런데 사실 군고구마보다도 구운 감자를 더 좋아합니다. 바싹 구워서 소금만 콕 찍어먹으면 천국이 따로 없어요. 군밤 먹기 싫어요."
+    section: about
+
+  contact:
+    title: "Contact Us"
+    text: ""
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
